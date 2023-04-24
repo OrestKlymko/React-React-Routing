@@ -14,6 +14,7 @@ export default function MovieDetail() {
   useEffect(() => {
     getMovieByID(movieId).then(setMovie);
   }, [movieId]);
+  // eslint-disable-next-line
   const { poster_path, overview, original_title, vote_average, genres } = movie;
   return (
     <div className={css.container}>
