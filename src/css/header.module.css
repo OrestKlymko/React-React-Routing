@@ -1,0 +1,14 @@
+.btnLink{
+ display: inline-block;
+ margin: 15px;
+ background-color:blue;
+ color: white;
+ padding: 10px 15px;
+ border-radius: 4px;
+ text-decoration: none;
+}
+
+.navigation{
+  display: flex;
+  background-color:blanchedalmond;
+}

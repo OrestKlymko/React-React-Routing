@@ -1,0 +1,26 @@
+.container{
+  padding: 15px;
+}
+
+.wrapper{
+  display: flex;
+  background-color: #e9e6e6;
+
+}
+
+.cardDescription{
+  display: block;
+  margin-left: 10px;
+
+}
+
+.backBtn{
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 8px;
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+
+}
